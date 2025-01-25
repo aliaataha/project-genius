@@ -1,0 +1,506 @@
+/* start goals */
+.goals-container-service
+{
+    display: flex;
+    gap: 1.37em;
+    margin-top: 3.5em;
+}
+.goals-container-service-image
+{
+    width:50%;
+    background-color: var(--yellow-color);
+    border-radius: 16px;
+    position: relative;
+}
+
+.goals-container-service-faqs
+{
+    width: 50%;
+}
+.goals-faqs-item .goals-faqs-item-header.active
+{
+    background-color:#F4A905;
+}
+.goals-faqs-item .goals-faqs-item-header
+{
+    display: flex;
+    gap:.8em;
+    background-color:var(--secondary-color);
+    padding-block: 1em;
+    padding-inline-start: 2em;
+   
+}
+
+.goals-faqs-item .goals-faqs-item-description.active
+{
+  background-color: var(--yellow-color-25);
+  padding-block: 1.5em;
+  padding-inline-start: 1.9em;
+}
+.goals-faqs-item-header h4
+{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: var(--main-color);
+   
+}
+.goals-faqs-item-header.active h4
+{
+    color: var(--white-color);
+}
+.goals-faqs-item-header svg
+{
+    fill: var(--main-color);
+    stroke: var(--main-color);
+}
+.goals-faqs-item-header.active svg
+{
+    fill: var(--white-color);
+    stroke: var(--white-color);
+}
+.goals-faqs-item:not(:last-of-type)
+{
+    margin-bottom: 1.3em;
+}
+
+.goals-container-service-image img:nth-of-type(1) {
+    position: absolute;
+    left: 1em;
+    top: -1.5em;
+    animation: translateY 1s ease-in-out infinite alternate;
+}
+.goals-container-service-image img:nth-of-type(2) {
+    position: absolute;
+    right: 2em;
+    top: 1em;
+    width: 4em;
+    animation: translateY 1s 1s ease-in-out infinite alternate;
+}
+.goals-container-service-image img:nth-of-type(3) {
+    position: absolute;
+    left: 2em;
+    bottom: 2em;
+    width: 4em;
+    animation: translateY 1s 1.5s ease-in-out infinite alternate;
+}
+.goals-container-service-image img:nth-of-type(4) {
+    position: absolute;
+    right: 2em;
+    bottom: -1em;
+    width: 6em;
+    animation: translateY 1s 2s ease-in-out infinite alternate;
+}
+@keyframes translateY {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(1em);
+    }
+}
+.goals-results-container
+{
+    display: flex;
+    margin-top: 2.9em;
+}
+
+.goals-results-container .result
+{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 1.5rem;
+    color: var(--white-color);
+   
+}
+.goals-results-container .result span
+{
+    font-size: 4em;
+    font-weight: 700;
+}
+.goals-results-container .result h5
+{
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.goals-results-container .result:nth-of-type(1)
+{
+    background-color: var(--blue-color);
+}
+.goals-results-container .result:nth-of-type(2)
+{
+    background-color: var(--orange-color);
+    width: 50%;
+}
+.goals-results-container .result:nth-of-type(3)
+{
+    background-color: var(--yellow-color);
+}
+/* end goals */
+/* start courses */
+.courses .header-container .header-description
+{
+    width: 40%;
+}
+.courses .header-container
+{
+   justify-content: space-between;
+}
+.courses .header-container .header-description p
+{
+    font-size: 1.1em;
+    color: var(--gray-color-card-text);
+
+}
+.courses-cards-container
+{  
+     margin-top: 2.5em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25em;
+}
+.courses-cards-container .card
+{
+    width:calc((100% - 3.75em) / 4);
+    background-color: var(--secondary-color);
+}
+.courses-cards-container .card .course-image
+{
+    display: flex;
+    flex-direction: column;
+    height: 15em;
+}
+
+.courses-cards-container .card .course-description
+{
+    padding: 1.5em;
+   
+}
+.courses-cards-container .card .course-description h3
+{
+    padding: 0;
+    font-weight: 700;
+    font-weight: 1.5em;
+    margin-bottom: .7em;
+}
+.courses-cards-container .card .course-description p
+{
+    font-size: .9em;
+    color: var(--gray-color-card-text);
+}
+
+.container .courses-bttns
+{
+    width: fit-content;
+    margin: auto;
+    margin-top: 3.5em;
+}
+.courses-bttns button
+{
+    background-color: var(--orange-color);
+    padding-block: .6em;
+    padding-inline: 3.1em;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.1em;
+    color: var(--white-color);
+    
+}
+/* end courses */
+/* start testmonial */
+.testmonial
+{
+    margin-top: 6em;
+}
+.testmonial .header-container p
+{
+    font-size: 1.5em;
+    color: #282828;
+}
+.testmonial .header-container
+{
+    margin-bottom: 2.5em;
+}
+.testmonial-container-cards
+{
+    display: flex;
+    gap: 1.3em;
+}
+.testmonial-container-cards .testmonial-card
+{
+    width: (calc(100% - 2.6em) / 3);
+    color: var(--gray-color-card-text);
+    font-size: 1.1em;
+    background-color: var(--secondary-color);
+    padding-block: 3em;
+    padding-inline: 1.8em;
+   
+}
+.testmonial-container-cards .testmonial-card-client h4
+{
+    font-weight: 600;
+}
+.testmonial-container-cards .testmonial-card-client span
+{
+    font-size: .8em;
+}
+/* end testmonial */
+/* start instructors */
+
+ .instructors-container
+{
+ display: flex;
+ gap: 1.25em;
+ margin-top: 3.3em;
+}
+.instructors .instructors-container .instructor-card
+{
+ width: calc((100% - 3.75em) / 4);
+ border-radius: 10px;
+}
+
+.instructors .instructors-container .instructor-card .instructor-image 
+{
+   height: 14em;
+   position: relative;
+}
+.instructors .instructors-container .instructor-card .instructor-image img:not(:nth-of-type(2))
+{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top:-1em;
+  object-fit: contain;
+}
+.instructors .instructors-container .instructor-card .instructor-image img.cover
+{
+ object-fit: cover;
+}
+.instructors .instructors-container .instructor-card .instructor-description
+{
+ padding: 2em;
+ background: var(--secondary-color);
+}
+.instructors .instructors-container .instructor-card .instructor-description h3
+{
+ font-size: 1.5em;
+ font-weight: 700;
+}
+.instructors .instructors-container .instructor-card .instructor-description p
+{
+ margin-top: .8em;
+ font-size: .9em;
+ color: var(--gray-color-card-text);
+}
+/* start media quary */
+@media(max-width: 1279px)
+{
+    
+  .goals-container-service
+  {
+      flex-direction: column;
+      gap:3em
+  }
+  .goals-container-service-image
+     {
+        order:-1;
+        width: 100%;
+     } 
+    .goals-container-service-faqs
+    {
+        width: 100%;
+    }
+    .goals-results-container
+    {
+        flex-direction: column;
+    }  
+    .goals-results-container .result
+    {
+        width: 100% !important;
+    }
+
+    .courses-header-container
+    {
+        flex-direction: column;
+        gap:1.2em
+    }
+    .courses-header-container .header , .courses-header-container .header-description 
+    {
+        width: 100%; 
+    }
+}
+/* start ads */
+.ads
+{
+    margin-top: 8.4em;
+}
+.ads-container
+{
+    display: flex;
+    background-color: var(--blue-color);
+    padding-top: 3.25em;
+    border-radius: 10px;
+    gap:3.5em;
+    height: fit-content;
+}
+.ads-image
+{
+    width: 40%;
+    position: relative;
+    height: 15em;
+    
+}
+
+.ads-image img:nth-of-type(1)
+{
+    width: 100%;
+    height: 25em;
+    position: absolute;
+    top: -50%;
+}
+.ads-image img:nth-of-type(2)
+{
+    position: absolute;
+    left:0px;
+    top:-4.5em;
+    width: 6em;
+}
+.ads-image img:nth-of-type(3)
+{
+    position: absolute;
+    right: .8em;
+    top:.2em;
+    width: 3em;
+}
+.ads-content h3
+{
+   font-size: 2em;
+   font-weight: 700;
+   line-height: 1.3em;
+   margin-bottom:.3em ;
+}
+.ads-content p
+{
+   font-size: 1.1em;
+}
+.ads-content
+{
+    width: 45%;
+    color: var(--white-color);
+}
+.ads-content button
+{
+    color: var(--blue-color);
+    padding-block: .6em;
+    padding-inline: 3.5em;
+    background-color: var(--white-color);
+    border: 0;
+    border-radius: 10px;
+    margin-top: 1.3em;
+}
+/* end ads */
+/* end instructors */
+/* التابلت(768px - 1279px) */
+@media (min-width: 768px) and (max-width: 1279px) 
+{
+    .courses-cards-container .card
+{
+    width:calc((100% - 2.5em) / 3);
+}
+.instructors .instructors-container
+    {
+      flex-wrap: wrap;
+    }
+.instructors .instructors-container .instructor-card
+{
+    
+    width: calc((100% - 2.5em) / 3);
+}
+}
+
+/* الموبايل(أقل من 768px) */
+@media (max-width: 767px) 
+{
+    .courses .header-container .header-description
+       {
+            width: 100%;
+      }
+    .courses-cards-container .card
+    {
+        width:100%;
+    }
+    .courses-cards-container .card .course-image img
+    {
+        object-fit: cover;
+        object-position: top center;
+    }
+    .courses-cards-container .card .course-image
+    {
+        height: 22em;
+    }
+    .testmonial-container-cards
+    {
+      flex-wrap: wrap;
+    }
+  .testmonial-container-cards .testmonial-card
+    {
+      width: 100%;
+      
+    }
+  .testmonial .header-container .header
+    {
+      order: -1;
+    }
+.instructors .instructors-container
+    {
+      flex-wrap: wrap;
+    }
+.instructors .instructors-container .instructor-card
+   {
+    width: 100%;
+    
+   }
+.instructors .instructors-container .instructor-card .instructor-image img.cover
+{
+ object-fit: contain;
+}
+.ads-container
+{
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+
+}
+.ads-content, .ads-image
+{
+    width: 100%;
+}
+.ads-container
+{
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+
+}
+.ads-content, .ads-image
+{
+    width: 100%;
+}
+.ads-image img:nth-of-type(1)
+{
+    position: static;
+    height: 15em;
+    object-fit: contain;
+}
+.ads-content button 
+{
+    margin-bottom: 1.3em;
+}
+}
+
+
+/* end media quary */

@@ -1,0 +1,146 @@
+span
+{
+    font-weight: 700;
+}
+.teacher .all-teachers
+{
+    display: flex;
+    gap:2em;
+    position: relative;
+    
+}
+.all-teachers::after
+{
+  content: "";
+  width: 100%;
+  height: 3em;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(0, #FFF 40.8%, #FFF 70.63%, rgba(255, 255, 255, 0.00) 99.43%);
+}
+.teacher .all-teachers .instructors-container
+{
+    flex-direction:column;
+    overflow-y: scroll;
+    height: 30em;
+    scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+.scrollable-div::-webkit-scrollbar
+ {
+    display: none; 
+  }
+  .teacher .instructors-container
+   {
+       margin-top: 0;
+   }
+.teacher .all-teachers  .instructor-card
+{
+  width: 100%;
+ 
+}
+.teacher .all-teachers
+{
+  width: 30%;
+}
+.teacher .sigle-teacher
+{
+  width: 70%;
+ 
+}
+.teacher .content 
+{
+    display: flex;
+    gap: 5.6em;
+    margin-top: 7em;
+    align-items: flex-start;
+}
+
+.teacher .sigle-teacher .teacher-image
+{
+  
+  width: 40%;
+  height: 22em;
+  background-color: #faf6f6;
+  padding-top: .4em;
+}
+.sigle-teacher
+{
+  display: flex;
+  align-items: center;
+}
+.teacher .sigle-teacher .teacher-description
+{     
+       width: 60%;
+       background-color: var(--secondary-color);
+       padding-right: 1em;
+       height: 22em;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+}
+.teacher .teacher-description .teacher-description-content
+{
+  display: flex;
+  flex-direction: column;
+  gap: 1.25em;
+  margin-top: 2em;
+  color: #909090;
+}
+
+.teacher .sigle-teacher .teacher-description h3
+{
+  font-size: 2.8em;
+  font-weight: 700;
+}
+.teacher .teacher-description .teacher-description-content p:first-of-type
+{
+  font-size: 1.2em;
+}
+@media (max-width: 1279px) 
+{
+    
+ .hero-banner .hero-container .hero-banner-image
+   {
+    width: 100%;
+    height: 18.3em;
+   
+  }
+  .hero-banner .hero-container .hero-banner-image .instructors .instructors-container
+ {
+    flex-wrap: nowrap;
+}
+.hero-banner .instructors .instructors-container .instructor-card .instructor-image img.cover {
+ object-fit: contain;
+}
+.teacher  .all-teachers .instructors .instructors-container
+ {
+  flex-wrap: nowrap;
+}
+}
+@media (max-width: 767px) {
+  .teacher .content
+  {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .teacher .all-teachers
+   {
+    width: 100%;
+}
+.teacher .all-teachers .instructors-container
+ {
+    flex-direction: row;
+    overflow-x: auto;
+    
+
+}
+.teacher .all-teachers .instructors .instructors-container .instructor-card {
+  width: calc((90% - 1.25em) /2);
+  flex-shrink: 0;
+}
+.teacher .sigle-teacher {
+  width: 100%;
+}
+}

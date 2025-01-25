@@ -1,0 +1,521 @@
+html
+{
+    overflow-x: hidden;
+}
+.content-container
+{
+    display: flex;
+    margin-top: 6.4em;
+    gap: 1.3em;
+    align-items: flex-start;
+   
+}
+aside
+{
+    width: 40%;
+    background-color: var(--secondary-color);
+}
+aside .side-bar-header
+{
+    padding-block: 1em;
+    background-color: var(--yellow-color);
+    text-align: center;
+}
+aside .side-bar-header h3
+{
+    font-size: 1.1em;
+    color: var( --white-color);
+}
+aside .diploma-container
+{
+    padding-inline: 1.9em;
+}
+aside .diploma-container .diploma-header h2
+{
+    color: var(--yellow-color);
+    font-size: 2.5em;
+    font-weight: 700;
+}
+aside .diploma-container .diploma-header
+{
+    text-align: center;
+    margin-top: 2em;
+}
+.diploma-container .diploma-image
+{
+    height: 13em;
+    margin-top: .8em;
+   
+}
+.diploma-price
+{
+    display: flex;
+    gap: .9em;
+    padding-block: 1.5em;
+    background-color: var(--yellow-color);
+    margin-top: 1.6em;
+    padding-inline: 2.5em;
+}
+.diploma-price .price span
+{
+    font-size: 2.5em;
+    font-weight: 700;
+}
+.diploma-price .price
+ {
+    color: var(--white-color);
+}
+.diploma-price .price-description 
+{
+    font-size: .7em;
+    color: #9B6900;
+}
+
+.diploma-price .price-description .line
+{
+   height: 1px;
+   width: 100%;
+   background-color: #9B6900;
+   margin-block: .2em;
+}
+.diploma-details
+{
+    margin-top: 1.6em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    font-size: .8em;
+   
+}
+.diploma-container
+{
+    color: #909090;
+}
+.diploma-details .top-details .icon
+{
+    width: 1.3em;
+    height: 1.3em;
+    border-radius: 50%;
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+    top:-1em;
+    
+}
+aside strong , main strong
+{
+    font-weight: 600;
+}
+.top-details
+{
+    display: flex;
+    gap: .6em;
+}
+
+.bottom-details
+{
+    display: flex;
+    gap: .6em;
+}
+.terms-container
+{
+    display: flex;
+    gap: 1.3em;
+}
+.terms-container .line
+{
+    width: 1px;
+    height: 100%;
+    background-color:#909090; ;
+}
+.diploma-details .bottom-line
+{
+    width: 100%;
+    height: 1px;
+    background-color:#909090; ;
+}
+.deploma-progress
+{
+    margin-top: 1.3em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3em;
+    margin-bottom: 1.75em;
+}
+.progress-item
+{
+   display: flex;
+   gap:.6em
+}
+.deploma-progress > .progress-item:first-child svg
+{
+    color:var(--yellow-color);
+    position: relative;
+    top:-1em;
+}
+.deploma-progress > .progress-item:nth-child(2) svg
+{
+    color: #00B912;
+}
+.deploma-progress span
+{
+    font-weight: 700;
+}
+.diploma-bttns
+{
+    display: flex;
+    flex-direction: column;
+    gap: .9em;
+    
+}
+.diploma-bttns button
+{
+    padding-block: .8em;
+    border-radius: 67px;
+    border:1px solid #616161;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #9A9A9A;
+}
+.diploma-bttns > button:first-of-type
+{
+    background-color: var(--yellow-color);
+    color: var(--main-color);
+    border: 0;
+}
+.diploma-share-and-favorite-container
+{
+    display: flex;
+    gap: 2.3em;
+    padding-block: 1.3em;
+    justify-content: center;
+}
+.diploma-share-and-favorite-container .content
+{
+    display: flex;
+    gap: 0.6em;
+    align-items: center;
+}
+.content-container main
+{
+    width: 60%;
+   
+}
+
+.diploma-header .top-section
+{
+    height: 21em;
+}
+video
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content-container main .diploma-header .bottom-section .header-container
+{
+    flex-direction: column;
+    align-items: flex-start;
+    gap:1.1em;
+   
+}
+.content-container main .diploma-header .bottom-section .header-container .header
+{
+    width: 100%;
+}
+.content-container main .diploma-header .bottom-section .header-container .description p
+{
+     color: #909090;
+     font-size: 1.1em;
+}
+main .diploma-details .diploma-details-content
+{
+    padding-block: 1em;
+   
+}
+main .diploma-details .diploma-details-content p
+{
+    position: relative;
+    padding-right:30px;
+    margin-bottom: 1em;
+}
+main .diploma-details p::before
+{
+    content:url("data:image/svg+xml,%3Csvg%20stroke%3D%22%23F5A805%22%20fill%3D%22%23F5A805%22%20stroke-width%3D%220%22%20version%3D%221.2%22%20baseProfile%3D%22tiny%22%20viewBox%3D%220%200%2024%2024%22%20height%3D%2220px%22%20width%3D%2220px%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M16.972%206.251c-.967-.538-2.185-.188-2.72.777l-3.713%206.682-2.125-2.125c-.781-.781-2.047-.781-2.828%200-.781.781-.781%202.047%200%202.828l4%204c.378.379.888.587%201.414.587l.277-.02c.621-.087%201.166-.46%201.471-1.009l5-9c.537-.966.189-2.183-.776-2.72z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+    position: absolute;
+    top: 0;
+    right: 2px;
+   
+}
+main .diploma-details
+{
+   
+    background-color: var(--secondary-color);
+    
+}
+main .diploma-details-header h3
+{
+    padding-block: 1em;
+    background-color: var(--yellow-color);
+    color: var(--white-color);
+    padding-right: 2em;
+    font-size: 1.5em;
+    font-weight: 700;
+   
+}
+.diploma-overview ,.diploma-advantages,.diploma-benefits
+{
+   
+    margin-top: 1.9em;
+}
+.diploma-overview-header, .diploma-advantages-header, .diploma-benefits-header
+{
+    background-color: #D7D7D7;
+    padding-block: .9em;
+    padding-inline: 2em;
+    
+    
+}
+.diploma-overview-header h3
+{
+    font-weight: 700;
+   color: var(--gray-color-card-text);
+}
+.diploma-overview-content, .diploma-advantages-content, .diploma-benefits-content
+{
+    padding-inline: 2em;
+    background-color: var(--secondary-color);
+    padding-block: 1.6em;
+}
+.diploma-curriculum-header
+{
+    padding-block: .75em;
+    padding-inline: 2em;
+    background-color: #EAEAEA;
+    margin-bottom: .9em;
+    color:#818181;
+   
+}
+.diploma-curriculum-header h4
+{
+    font-weight: 600;
+}
+.diploma-curriculum.active .diploma-curriculum-header
+
+{
+    margin-bottom: 0px;
+    background-color: #DBDBDB;
+}
+.diploma-curriculum-description
+{
+    display: none;
+    background-color: #EAEAEA;
+    padding-block: 1.5em;
+}
+.diploma-curriculum.active .diploma-curriculum-description
+{
+    display: block;
+    margin-bottom: .9em;
+}
+.diploma-curriculum-description h5
+{
+    margin-bottom: .6em;
+    font-size: .8em;
+    color: #909090;
+    padding-right: 30px;
+    position: relative;
+}
+.diploma-curriculum-description h5::before
+{
+    content:url("data:image/svg+xml,%3Csvg%20stroke%3D%22%23616161%22%20fill%3D%22%23616161%22%20stroke-width%3D%220%22%20version%3D%221.2%22%20baseProfile%3D%22tiny%22%20viewBox%3D%220%200%2024%2024%22%20height%3D%2220px%22%20width%3D%2215px%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M16.972%206.251c-.967-.538-2.185-.188-2.72.777l-3.713%206.682-2.125-2.125c-.781-.781-2.047-.781-2.828%200-.781.781-.781%202.047%200%202.828l4%204c.378.379.888.587%201.414.587l.277-.02c.621-.087%201.166-.46%201.471-1.009l5-9c.537-.966.189-2.183-.776-2.72z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+    position: absolute;
+    top:-5px;
+    right: 2px;
+}
+
+.advantages-container::before
+{
+    content:url("data:image/svg+xml,%3Csvg%20stroke%3D%22%23F5F5F5%22%20fill%3D%22%23F5A805%22%20stroke-width%3D%225%22%20viewBox%3D%220%200%20576%20512%22%20height%3D%2233px%22%20width%3D%2235px%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M259.3%2017.8L194%20150.2%2047.9%20171.5c-26.2%203.8-36.7%2036.1-17.7%2054.6l105.7%20103-25%20145.5c-4.5%2026.3%2023.2%2046%2046.4%2033.7L288%20439.6l130.7%2068.7c23.2%2012.2%2050.9-7.4%2046.4-33.7l-25-145.5%20105.7-103c19-18.5%208.5-50.8-17.7-54.6L382%20150.2%20316.7%2017.8c-11.7-23.6-45.6-23.9-57.4%200z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+    position: absolute;
+    top:-.9em;
+    right:-3px;
+    width: 20px;
+    height: 20px;
+    transform:rotate(-15deg);
+
+}
+.advantages-container
+{
+    position: relative;
+}
+.advantage
+{
+   margin-bottom: 1.25em;
+   color: var(--white-color);
+}
+.advantage-content p
+{
+    font-size: .6em;
+    margin-top: .4em;
+    
+}
+.advantage-content h4
+{
+   font-weight: 700;
+}
+.advantage-image
+{
+    width: 30%;
+    height: 7em;
+}
+.advantage-content
+{
+  
+  padding-block: 1.6em;
+  padding-inline: 2.5em;
+  width: 70%;
+}
+.advantage-image img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover !important;
+    object-position:top center;
+}
+.diploma-advantages-content .advantage:nth-child(odd) .advantage-image
+{
+     order:-1
+} 
+.diploma-benefits-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .6em;
+    
+}
+.benefit 
+{  
+    padding-block: 2em;
+    padding-inline: 1.5em;
+    width: calc((100% - .6em) / 2);
+    height: 15em;
+    color: var(--white-color);
+    margin-bottom: .6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .4em;
+}
+.benefit p
+{
+    font-size: .75em;
+}
+.benefit h4
+{
+   font-weight: 700;
+}
+.diploma .instructors .instructors-header
+{
+    font-weight: 700;
+    font-size: 2.5em;
+}
+.diploma .instructors .instructors-header h3
+{
+    
+    color: var(--blue-color);
+}
+.instructors-content
+{
+
+    overflow-x: scroll;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+    cursor: pointer;
+   
+}
+
+.diploma .instructors .instructors-container .instructor-card , .hero-banner .hero-banner-image .instructors-container .instructor-card
+{
+    width: calc((90% - 2.5em) / 2);
+    flex-shrink: 0;
+   
+}
+.courses-cards-container.diploma-page .card
+{
+    width:calc((90% - 3.75em) / 4);
+    
+}
+.courses-cards-container.diploma-page
+{   
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+    cursor: pointer;
+}
+.courses-cards-container.diploma-page .card 
+{
+
+    flex-shrink: 0;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) 
+{
+.courses-cards-container.diploma-page .card 
+{
+    width:calc((90% - 2.5em) / 3);
+    flex-shrink: 0;
+}
+.diploma .instructors .instructors-container
+    {
+      flex-wrap:nowrap;
+    }
+ .diploma .instructors .instructors-container .instructor-card
+   {
+    width: calc((90% - 2.5em) / 2);
+    flex-shrink: 0;
+    
+   }
+   aside .diploma-price 
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+}
+@media (max-width: 767px) 
+{
+.content-container
+{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.content-container aside 
+{
+    width: 100%;
+}
+.content-container main
+{
+    width: 100%;
+}
+.diploma .instructors .instructors-container
+    {
+      flex-wrap:nowrap;
+    }
+ .diploma .instructors .instructors-container .instructor-card
+   {
+    width: 90%;
+    
+   }
+   .courses-cards-container.diploma-page .card 
+{
+    width:calc((90% - 1.25em) / 2);
+    flex-shrink: 0;
+}
+aside 
+{
+    display: none;
+}
+
+}

@@ -1,0 +1,79 @@
+.yellow-color
+{
+    color: var(--yellow-color);
+}
+.blue-color
+{
+    color: var(--blue-color);
+}
+.main-color
+{
+    color: var(--main-color);
+}
+.orange-color
+{
+    color: var(--orange-color);
+}
+.green-color
+{
+    color: #00B912;
+}
+.cadet-blue
+{
+ background-color: #12376B40;
+}
+.wine-red
+{
+ background-color: #F04B2540;
+}
+.lime-green
+{
+ background-color: #286CD540;
+}
+.goldenrod
+{
+ background-color: #F4A90540;
+}
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+}
+.yellow-color-bg
+{
+    background-color: var(--yellow-color);
+}
+.blue-color-bg
+{
+    background-color: var(--blue-color);
+}
+.main-color-bg
+{
+    background-color: var(--main-color);
+}
+.orange-color-bg
+{
+    background-color: var(--orange-color);
+}
+.img-auto
+{
+    width: auto;
+    height: auto;
+}
+.rounded-overflow
+{
+   border-radius: 10px;
+   overflow: hidden;
+}
+.rounded
+{
+    border-radius: 10px;
+}
+.rounded-top
+{
+    border-radius: 10px 10px 0 0;
+}
+.rounded-bottom
+{
+    border-radius: 0 0 10px 10px;
+}

@@ -1,0 +1,64 @@
+html
+{
+    font-size: 16px;
+}
+.container
+ {
+    padding-inline: 11.3em;
+
+ }
+ .footer-container
+ {
+    padding-inline: 5.6em;
+ }
+/* شاشات كبيرة جدًا (1920px أو أكثر) */
+@media (min-width: 1920px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+/* شاشات متوسطة (1680px - 1919px) */
+@media (min-width: 1680px) and (max-width: 1919px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+/* أجهزة اللاب توب (1280px - 1679px) */
+@media (min-width: 1280px) and (max-width: 1679px) {
+    html {
+        font-size: 16px;
+    }
+    
+}
+
+/* التابلت(768px - 1279px) */
+@media (min-width: 768px) and (max-width: 1279px) {
+    html {
+        font-size: 14px;
+    }
+    .container
+       {
+         padding-inline: 1.22em;
+         }
+ .footer-container
+ {
+    padding-inline: 1.22em;
+ }
+}
+
+/* الموبايل(أقل من 768px) */
+@media (max-width: 767px) {
+    html {
+        font-size: 12px;
+    }
+    .container
+       {
+         padding-inline: 1.22em;
+         }
+         .footer-container
+         {
+            padding-inline: 1.22em;
+         }     
+}
